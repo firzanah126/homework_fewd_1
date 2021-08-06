@@ -1,0 +1,62 @@
+.top_menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 5px solid rgb(182, 212, 9);
+} 
+body{
+    margin: auto;
+}
+ p{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(182, 212, 9);
+}
+.menu{
+    padding-top: 26px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.top_banner{
+    font-size: 23px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(167, 163, 163);
+}
+.top_banner span{
+    text-decoration: 3px underline rgb(182, 212, 9);
+}
+.middle {
+    display:flex;
+    flex-direction: column;
+    width:250px;
+    word-wrap: break-word;
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.banner{
+    background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1lZXRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+    background-size: cover;
+    height: 400px;
+    padding:50px 0;
+}
+.middle p2{
+    padding-bottom: 50px;
+}
+#profile_button a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(242, 255, 60);
+    padding: 5px 44px;
+    border-radius: 5px;
+}
+#profile_button a:hover {
+    background-color: rgb(243, 243, 177);
+}
